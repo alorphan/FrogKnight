@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 18
-  productGUID: 7c6cf56d0c934e14db40481b93b1b606
+  productGUID: c6d1e11c6830eae48bf004072e299a4e
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: FrogKnight
+  productName: FrogKnightv2
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -590,9 +590,9 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 9b9c64fd-9605-4099-913b-2bf8324780ec
+  cloudProjectId: 33dbc634-13eb-4310-809d-0274344c66e3
   framebufferDepthMemorylessMode: 0
-  projectName: FrogKnight
+  projectName: FrogKnightv2
   organizationId: allisoninezlee
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
