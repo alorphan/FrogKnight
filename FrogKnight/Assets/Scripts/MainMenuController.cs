@@ -17,7 +17,7 @@ public class MainMenuController : MonoBehaviour
         
     }
 */ 
-
+//function for going to the hub scene 
     public void goToScene()
     { 
         SceneManager.LoadScene("hub"); 
