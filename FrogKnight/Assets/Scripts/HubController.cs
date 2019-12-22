@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ExpeditionButton : MonoBehaviour
+public class HubController : MonoBehaviour
 {
     public GameObject expeditionPanel;
     
@@ -21,5 +21,10 @@ public class ExpeditionButton : MonoBehaviour
     {
         Debug.Log("hello");
         expeditionPanel.gameObject.SetActive(true);
+    }
+
+    public void closeExpeditionPanel(GameObject expeditionPanel)
+    {
+        expeditionPanel.gameObject.SetActive(false);
     }
 }
