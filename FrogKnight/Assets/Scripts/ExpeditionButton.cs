@@ -1,25 +1,40 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ExpeditionButton : MonoBehaviour
 {
-    public GameObject expeditionPanel;
-    
+
+
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public void openExpeditionPanel(GameObject expeditionPanel)
+    public void openExpedition()
     {
-        Debug.Log("hello");
-        expeditionPanel.gameObject.SetActive(true);
+        SceneManager.LoadScene("expeditionstart");
+    }
+
+    public void openShop1()
+    {
+        SceneManager.LoadScene("shop1");
+    }
+
+    public void openInventory()
+    {
+        SceneManager.LoadScene("inventory");
+    }
+
+    public void openOptions()
+    {
+        SceneManager.LoadScene("options");
     }
 }

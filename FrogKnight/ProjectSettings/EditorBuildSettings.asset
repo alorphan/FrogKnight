@@ -11,4 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/hub.unity
     guid: 4fb8742e63e4f5647838f61ec92c25ab
+  - enabled: 1
+    path: Assets/Scenes/expeditioninprogress.unity
+    guid: 567dac5a7af0f2346af014fdc228a125
+  - enabled: 1
+    path: Assets/Scenes/expeditionstart.unity
+    guid: 407d61eb2aaeb1d47a6dd40d5bfcf484
+  - enabled: 1
+    path: Assets/Scenes/inventory.unity
+    guid: 85dacdf811fdad04aa0858c2dcfefc17
+  - enabled: 1
+    path: Assets/Scenes/shop1.unity
+    guid: 774272a5d79e0f248b38ee8525633ca2
   m_configObjects: {}
