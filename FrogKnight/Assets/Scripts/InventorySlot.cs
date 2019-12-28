@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI; 
 
 
@@ -7,7 +7,8 @@ public class InventorySlot : MonoBehaviour
     public Image icon; 
    Item item; // item in the slot 
 
-   public void AddItem(Item newItem)
+    
+   public void AddItem(Item newItem) 
    {
        item = newItem; 
 
@@ -17,6 +18,9 @@ public class InventorySlot : MonoBehaviour
 
    public void SelectItem()
    {
-       
+       if (item != null)
+       {
+           
+       }
    }
 }

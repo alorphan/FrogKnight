@@ -1,10 +1,9 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-
     #region Singleton
     public static Inventory instance; 
 
@@ -17,9 +16,9 @@ public class Inventory : MonoBehaviour
         instance = this; 
     }
     #endregion
-
     public delegate void OnItemChanged(); 
     public OnItemChanged onItemChangedCallback; 
+
    public List<Item> items; 
 
    public void Add(Item item)
