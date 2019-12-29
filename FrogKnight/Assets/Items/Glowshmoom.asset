@@ -15,3 +15,4 @@ MonoBehaviour:
   name: Glowshmoom
   icon: {fileID: 21300000, guid: fc74cb69fbf76ff4587d241fff6df15c, type: 3}
   flavor: When you shake it, it sheds glowing spores.
+  price: 200

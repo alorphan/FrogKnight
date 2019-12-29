@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Item", menuName = "Inventory/Item")]
@@ -7,7 +9,11 @@ public class Item : ScriptableObject
     public Sprite icon = null; 
 
     public string flavor = "Flavor Text"; 
+    public int price = 0; 
 
-
+    public void Print() 
+    {
+        Debug.Log(name + ": " + flavor + " " + price + " ");
+    }
 
 }
