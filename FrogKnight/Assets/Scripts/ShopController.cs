@@ -35,6 +35,6 @@ public class ShopController : MonoBehaviour
     public void buyItem() 
     {
         dewAmount -= 200; 
-        buyButton.gameObject.SetActive(false);
+        buyButton.interactable = false; 
     }
 }
