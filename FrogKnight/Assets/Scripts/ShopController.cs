@@ -6,14 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class ShopController : MonoBehaviour
 {
-    int dewAmount = 500;
-
-    public Text dewAmountText;
     public Text itemPriceText; 
 
     public Button buyButton;
 
-    public Text DewAmountText { get => dewAmountText; set => dewAmountText = value; }
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +20,7 @@ public class ShopController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        DewAmountText.text = "Dew: " + dewAmount.ToString(); 
+       // DewAmountText.text = "Dew: " + dewAmount.ToString(); 
 
         if(dewAmount >= 200)
             buyButton.interactable = true; 
@@ -34,7 +30,7 @@ public class ShopController : MonoBehaviour
 
     public void buyItem() 
     {
-        dewAmount -= 200; 
+        DewDrops.instance.dew -= 200; 
         buyButton.gameObject.SetActive(false);
     }
 }
